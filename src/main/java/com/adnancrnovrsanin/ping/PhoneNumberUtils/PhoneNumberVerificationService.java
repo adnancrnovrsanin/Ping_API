@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @Slf4j
 public class PhoneNumberVerificationService {
     public void generateOTP(String phoneNumber) {
-        Twilio.init("AC9d1e7888fa372ad6b7c21126021cd24b", "8d7661bf4c4cbccf1eace9b145999994");
+        Twilio.init("AC9d1e7888fa372ad6b7c21126021cd24b", "2fd3cf4d0a4ce13d5332dfda8be0912b");
 
         Verification verification = Verification.creator(
                 "VA84a1f758b2487251bc29fc0bf8059ab7",
