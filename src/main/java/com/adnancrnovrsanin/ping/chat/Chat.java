@@ -97,6 +97,12 @@ public class Chat {
 
         if (variable.getMessageType() == MessageType.IMAGE)
             return "Photo";
+        if (variable.getMessageType() == MessageType.VIDEO)
+            return "Video";
+        if (variable.getMessageType() == MessageType.AUDIO)
+            return "Audio";
+        if (variable.getMessageType() == MessageType.DOCUMENT)
+            return "File";
 
         return variable.getMessage();
     }
