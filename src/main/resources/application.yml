@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-tight-truth-905044.eu-central-1.aws.neon.tech/ping
+    username: adnancrnovrsanin48
+    password: 8wXzycCrb4Tt
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
